@@ -1,0 +1,50 @@
+<html>
+<head>
+  <style>
+  body{
+    background-image: url('https://img.freepik.com/free-vector/flat-design-travel-background_23-2149193475.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+  }
+  form{
+  text-align:center;
+  }
+  h1{
+  font-size:45px;
+  text-decoration:underline;
+  }
+  button{
+  border-width:3px;
+  border-radius:7px;
+  border:none;
+  background-color:blue;
+  padding:5px;
+  height:36px;
+  width:110px;
+  color:white;
+  }
+  </style>
+<title>Login Page</title>
+<body>
+  <form>
+    <h1>Sign In</h1>
+    <label for="uname">Username:</label>
+    <input type="text" id="uname" size=18><br>
+    <label for="pwd">Password:</label>
+    <input type="text" id="pwd" size=18><br>
+    <input type="button" onclick ="onSubmitted()" value="Submit" />
+    <input type="button" onclick ="onCreate()" value="Create" />
+  </form>
+  <div>
+
+  </div>
+   
+  <script src="users.js"></script>
+</body>
+</html>

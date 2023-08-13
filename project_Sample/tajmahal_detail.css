@@ -1,0 +1,44 @@
+.detailed-view-bg-container {
+    background-color: black;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card {
+    background-color: white;
+    margin: 20px;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 60vw;
+
+}
+
+.detailed-view-card-heading {
+    
+    font-size: 23px;
+    font-weight: bold;
+    color: #0f0e46;
+}
+
+.detailed-view-card-paragraph {
+    
+    font-size: 13px;
+    color: #6c6b70;
+}
+
+.detailed-view-card-text {
+    padding: 20px;
+}
